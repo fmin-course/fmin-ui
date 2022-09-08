@@ -1,0 +1,16 @@
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
+
+<view>
+  Hello World
+</view>
+
+<view>
+  <my-tag></my-tag>
+</view>
+
+<view></view>
+
+<button bindtap="handleShowModal">test</button>
+<fmin-modal showView="{{showView}}" title="提示" content="你还未登录学习通账号\n登录之后能享受作业查询服务" bindtap="handleModalLogin"></fmin-modal>
+

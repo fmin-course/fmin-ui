@@ -1,0 +1,101 @@
+:host {
+
+}
+
+.modal-mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 8000;
+    color: #fff;
+}
+
+.modal-dialog {
+    width: 592rpx;
+    height: 330rpx;
+    background: #FFFFFF;
+    border-radius: 16rpx;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 9999;
+    background: #f9f9f9;
+    margin: -345rpx 80rpx;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32rpx;
+    line-height: 28rpx;
+    letter-spacing: 2rpx;
+}
+
+.modal-title {
+  text-align: center;
+  width: 100%;
+  height: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: bold;
+  color: #0D0D0D;
+  line-height: 30rpx;
+  letter-spacing: 2rpx;
+  padding-top: 60rpx;
+
+}
+
+.contentText {
+  text-align: center;
+  width: 100%;
+  height: 56rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Light, PingFang SC;
+  font-weight: normal;
+  color: #939597;
+
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 44rpx;
+    margin-left: 77rpx;
+    margin-right: 77rpx;
+    margin-top: 43rpx;
+}
+
+.btn-cancel {
+  width: 202rpx;
+  height: 67rpx;
+  background: #E9EAEA;
+  border-radius: 9rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: var(--themeColor);
+  line-height: 65rpx;
+  letter-spacing: 2rpx;
+  text-align: center;
+  /** 垂直居中 **/
+}
+
+.btn-confirm {
+  width: 202rpx;
+  height: 67rpx;
+  background: var(--themeColor);
+  border-radius: 9rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: 2rpx;
+  text-align: center;
+  line-height: 65rpx;
+  /** 垂直居中 **/
+}

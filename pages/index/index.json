@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-tag": "fmin-ui/tag/index",
+    "fmin-modal": "../components/modal/modal"
+  }
+}
